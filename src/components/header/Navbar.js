@@ -15,7 +15,7 @@ export default () => {
                     <li><a href="#Sobre">Sobre</a></li>
                     <li><a href="#Conhecimentos">Conhecimentos</a></li>
                     <li><a href="#Qualidades">Qualidades</a></li>
-                    <li><a href="#Experiencias">Expêriencias</a></li>
+                    <li><a href="#Experiencias">Experiências</a></li>
                 </ul>
             </nav>
         </div>
