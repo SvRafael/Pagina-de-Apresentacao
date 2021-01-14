@@ -1,0 +1,28 @@
+.sectionQualidades{
+        display: flex;
+        width: 100%;
+        background-color: #000000;    
+        color: rgb(2, 2, 2);
+        text-align: center;
+        font-weight: bold;
+}
+
+.list{
+    flex: 1;
+    font-size: 40px;
+}
+
+.list li{
+    background-color: rgba(4, 127, 146, 0.705);
+    align-items: center;
+    font-family: 'Opens Sans', sans-serif;
+    border-top: 1px solid #00d9ff;
+    text-shadow:  1px 1px  rgba(0, 248, 236, 0.295);
+}
+
+
+.sectionQualidades:hover li{
+    font-size: 41px;   
+    text-shadow:  1px 1px  rgba(0, 248, 236, 0.479);
+}
+

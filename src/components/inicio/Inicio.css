@@ -1,0 +1,89 @@
+.divInicio{
+    display: flex;
+    padding: 80px 0px 0px 0px;
+    width: 100%;
+    background-color: #000000;    
+}
+
+.rs{
+    color: #fff;
+}
+
+.itemInicio{
+	text-align: left;
+    font-size: 1.5em;
+    background-color: #000000;    
+    padding: 20px 40px 0px 5px;
+    font-family: 'Redressed', cursive; 
+    color: rgb(255, 255, 255);
+
+}
+
+.labelIcon{
+    color:  #00d9ff;
+    margin-right: 10px;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+h3{
+    font-family: 'Redressed', cursive; 
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 35px;
+}
+
+h1{
+    font-family: 'Redressed', cursive; 
+    margin-left: 1em;
+    font-size: 50px;
+}
+
+.imgPerfil{
+    margin-top: 0em;
+    border-radius: 50%;
+    border: 1px solidrgb(160, 47, 47);
+    margin-top: 0em;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.divisao{
+    position: absolute;
+    content: '|';
+    height: 12.5em;
+    width: 5px;
+    border-radius: 10px;
+    background: #00d9ff;
+}
+/* 00d9ff */
+
+@media(max-width: 860px){
+    .divInicio{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .divisao{
+        display: none;
+        
+    }    
+
+    #dados{
+        text-align: left;
+        margin-left: 5.5em;
+    }
+
+    .itemInicio{
+        text-align: center;
+        font-size: 10px;
+        color: rgb(255, 255, 255);
+    }    
+
+    img{
+        margin-top: 0em;
+        border-radius: 50%;
+    }
+}
