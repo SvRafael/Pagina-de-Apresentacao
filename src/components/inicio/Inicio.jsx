@@ -16,7 +16,7 @@ export default () => {
                 <h3><label class="fa fa-calendar labelIcon"/>20 Anos</h3>
                 <h3><label class="fa fa-map-marker labelIcon"/>Pompéia-SP</h3>
             </div>
-            <div class="itemInicio" >
+            <div class="itemInicio" id="dados">
                 <h3><a class="fab fa-linkedin labelIcon" href="https://www.linkedin.com/in/rafael-souza-967b8815b" target="_blank" /><a class="rs" href="https://www.linkedin.com/in/rafael-souza-967b8815b" target="_blank">LinkedIn</a></h3>
                 <h3><a class="fab fa-github-square labelIcon" href="https://github.com/SvRafael" target="_blank"/><a href="https://github.com/SvRafael" target="_blank" class="rs">GitHub</a></h3>
             </div>

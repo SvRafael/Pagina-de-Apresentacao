@@ -26,3 +26,11 @@
     color: rgb(253, 253, 253);
     padding: 10px;
 }
+
+@media(max-width: 860px){
+    .Card{
+        min-width: 400px;
+        min-height: 150px;
+        max-width: 400px;
+    }
+}
